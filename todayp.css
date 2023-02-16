@@ -1,0 +1,218 @@
+.main {
+    width: auto;
+    height: 100%;
+    background-color: rgb(197, 197, 184);
+}
+.header{
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(248, 250, 248);
+    padding-top: 15px;
+}
+.lgimg{
+    background-color: white;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(14, 10, 10);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(32, 124, 47);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    margin-right: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .animateimg{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 20px;
+
+  }
+
+  .devimg{
+    height: 410px; 
+    width: 400px;
+    border-radius: 20px;
+    /* width: 100px;
+  height: 100px; */
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .content {
+    margin-left: 20px;
+    height: 400px;
+    background-color: azure;
+    border-radius: 20px;
+    border: 2px solid gray;
+    width: auto;
+    padding: 5px 10px;
+  }
+  
+  .content:hover {
+    width: auto;
+    height: auto;
+    transform: rotate(360deg);
+    font-size: 20px;
+  }
+  .team {
+    height: 15%;
+    background-color: #e9dbdbe7;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .imga{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .imga:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+  .client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    background-image: repeating-radial-gradient(rgb(118, 163, 118),
+     gray, rgb(41, 38, 33));
+  }
+  .newsteller {
+    margin-top: 20px;
+    background-color: inherit;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(29, 165, 11);
+    font-weight: bold;
+  }
+  input[type=text], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #6e807d;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .btn {
+    padding: 7px 15px;
+    border-radius: 4px;
+    background-color: #4caf9d;
+    color: black;
+    font-weight: bold;
+    border: 1px solid green;
+  }
+  .btn:hover{
+    background-color: #567757;
+    color: red;
+  }
+  .paginate1{
+    text-align: center;
+  }
+  .paginate {
+    display: inline-block;
+   /* margin-left: 600px;
+   margin-top: 20px; */
+  }
+  
+  .paginate a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 3s;
+  }
+  
+  .paginate a.active {
+    background-color: #4CAF50;
+    color: rgb(243, 237, 237);
+  }
+  .paginate a:hover{
+    background-color: green;
+    transition-delay:1s ;
+  }
+  
+  footer{
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+}
